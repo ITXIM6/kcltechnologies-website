@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://itxim6.github.io/kcltechnologies-website/sitemap.xml
