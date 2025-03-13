@@ -17,7 +17,12 @@ body {
     padding: 1.5em 0;
     text-align: center;
 }
-
+img {
+    display: block;
+    max-width: 100%; /* Ensures the image fits within its container */
+    height: auto; /* Maintains aspect ratio */
+    margin: 0 auto; /* Centers the image */
+}
 .nav-links {
     list-style: none;
     display: flex;
