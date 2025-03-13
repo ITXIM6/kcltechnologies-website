@@ -11,7 +11,11 @@ body {
     color: #333;
     background: #f4f4f4;
 }
-
+.logo {
+    width: 150px;  /* Adjust size */
+    display: block;
+    margin: auto;   /* Center the logo */
+}
 .main-header {
     background: #0073e6;
     color: white;
