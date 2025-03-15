@@ -98,17 +98,39 @@
         <p><strong>Phone:</strong> 9149402554</p>
         </form>
       <form action="https://formspree.io/f/mqapapzj" method="POST">
-    <form>
-    <label for="name">Your Name:</label>
-    <input type="text" id="name" name="name" required>
+    <form action="your-server-endpoint" method="POST">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
 
-    <label for="email">Your Email:</label>
-    <input type="email" id="email" name="email" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
 
-    <label for="message">Your Message:</label>
-    <textarea id="message" name="message" required></textarea>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
 
-    <button type="submit">Send</button>
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" rows="3" required></textarea><br><br>
+
+    <label for="service">Service Required:</label>
+    <select id="service" name="service" required>
+        <option value="Software Installation">Software Installation</option>
+        <option value="Hardware Repair">Hardware Repair</option>
+        <option value="Network Setup">Network Setup</option>
+        <option value="IT Consultation">IT Consultation</option>
+        <option value="Other">Other</option>
+    </select><br><br>
+
+    <label for="issue">Issue Description:</label>
+    <textarea id="issue" name="issue" rows="4" required></textarea><br><br>
+
+    <label for="urgency">Urgency Level:</label>
+    <select id="urgency" name="urgency">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit Request">
     </form>
     <footer class="main-footer">
         <p>&copy; 2025 KCL Technologies. All rights reserved.</p>
